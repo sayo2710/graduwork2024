@@ -73,47 +73,47 @@ $item_e_visitation = $_POST['item_e_visitation'];
                     <h1>基本情報</h1>
                 </legend>
                 <label>裁判所：<input maxlength="20" type="text" readonly name="item_a_court" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_court; ?>"></label><br>
-                <label>事件名：<input maxlength="20" type="text" name="item_a_incident" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_incident; ?>"></label><br>
-                <label>ドキュメント名：<input maxlength="20" type="text" name="item_a_doc" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_doc; ?>"></label><br>
-                <label>作成日：<input maxlength="15" type="text" name="item_a_date" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_date; ?>"></label><br>
-                <label>作成者：<input maxlength="20" type="text" name="item_a_name" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_name; ?>"></label><br>
+                <label>事件名：<input maxlength="20" type="text" readonly name="item_a_incident" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_incident; ?>"></label><br>
+                <label>ドキュメント名：<input maxlength="20" type="text" readonly name="item_a_doc" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_doc; ?>"></label><br>
+                <label>作成日：<input maxlength="15" type="text" readonly name="item_a_date" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_date; ?>"></label><br>
+                <label>作成者：<input maxlength="20" type="text" readonly name="item_a_name" class="input input-bordered w-full max-w-xs flex items-center gap-2" value="<? echo $item_a_name; ?>"></label><br>
 
                 <legend>
                     <h1>あなたについて</h1>
                 </legend>
-                <label>生活歴：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_life" value="<? echo $item_b_life;; ?>"></textarea></label><br>
-                <label>現在の職業：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_job" value="<? echo $item_b_job; ?>"></textarea></label><br>
-                <label>収入：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_income" value="<? echo $item_b_income; ?>"></textarea></label><br>
-                <label>支出：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_expense" value="<? echo $item_b_expense; ?>"></textarea></label><br>
-                <label>健康状態：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_health" value="<? echo $item_b_health; ?>"></textarea></label><br>
-                <label>同居者：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_cohabitant" value="<? echo $$item_b_cohabitant; ?>"></textarea></label><br>
-                <label>住居：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_house" value="<? echo $$item_b_house; ?>"></textarea></label><br>
+                <label>生活歴：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_life"><? echo $item_b_life;; ?></textarea></label><br>
+                <label>現在の職業：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_job"><? echo $item_b_job; ?></textarea></label><br>
+                <label>収入：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_income"><? echo $item_b_income; ?></textarea></label><br>
+                <label>支出：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_expense"><? echo $item_b_expense; ?></textarea></label><br>
+                <label>健康状態：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_health"><? echo $item_b_health; ?></textarea></label><br>
+                <label>同居者：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_cohabitant"><? echo $item_b_cohabitant; ?></textarea></label><br>
+                <label>住居：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_b_house"><? echo $item_b_house; ?></textarea></label><br>
 
                 <legend>
                     <h1>お子様について</h1>
                 </legend>
-                <label>生活歴：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_life" value="<? echo $item_c_life; ?>"></textarea></label><br>
-                <label>同居中の監護について：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_custody_A" value="<? echo $item_c_custody_A; ?>"></textarea></label><br>
-                <label>別居後の監護について：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_custody_B" value="<? echo $item_c_custody_B; ?>"></textarea></label><br>
-                <label>平日のスケジュール：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_schedule_A" value="<? echo $item_c_schedule_A; ?>"></textarea></label><br>
-                <label>休日のスケジュール：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_schedule_B" value="<? echo $item_c_schedule_B; ?>"></textarea></label><br>
-                <label>病歴：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_disease" value="<? echo $item_c_disease; ?>"></textarea></label><br>
-                <label>発達：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_development" value="<? echo $item_c_development; ?>"></textarea></label><br>
-                <label>通園・通学：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_school" value="<? echo $item_c_school; ?>"></textarea></label><br>
-                <label>両親の紛争について：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_conflict" value="<? echo $item_c_conflict; ?>"></textarea></label><br>
-                <label>別居している親との交流状況：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_visitation" value="<? echo $item_c_visitation; ?>"></textarea></label><br>
+                <label>生活歴：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_life"><? echo $item_c_life; ?></textarea></label><br>
+                <label>同居中の監護について：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_custody_A"><? echo $item_c_custody_A; ?></textarea></label><br>
+                <label>別居後の監護について：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_custody_B"><? echo $item_c_custody_B; ?></textarea></label><br>
+                <label>平日のスケジュール：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_schedule_A"><? echo $item_c_schedule_A; ?></textarea></label><br>
+                <label>休日のスケジュール：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_schedule_B"><? echo $item_c_schedule_B; ?></textarea></label><br>
+                <label>病歴：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_disease"><? echo $item_c_disease; ?></textarea></label><br>
+                <label>発達：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_development"><? echo $item_c_development; ?></textarea></label><br>
+                <label>通園・通学：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_school"><? echo $item_c_school; ?></textarea></label><br>
+                <label>両親の紛争について：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_conflict"><? echo $item_c_conflict; ?></textarea></label><br>
+                <label>別居している親との交流状況：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_c_visitation"><? echo $item_c_visitation; ?></textarea></label><br>
 
                 <legend>
                     <h1>お手伝いしてくれる方について</h1>
                 </legend>
-                <label>監護補助者：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_d_assistant" value="<? echo $item_d_assistant; ?>"></textarea></label><br>
-                <label>監護補助の状況：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_d_auxiliary" value="<? echo $item_d_auxiliary; ?>"></textarea></label><br>
+                <label>監護補助者：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_d_assistant"><? echo $item_d_assistant; ?></textarea></label><br>
+                <label>監護補助の状況：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_d_auxiliary"><? echo $item_d_auxiliary; ?></textarea></label><br>
 
                 <legend>
                     <h1>親権者になった後の計画について</h1>
                 </legend>
-                <label>監護計画：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_e_plan" value="<? echo $item_e_plan; ?>"></textarea></label><br>
-                <label>今後の面会交流：<textarea maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_e_visitation" value="<? echo $item_e_visitation; ?>"></textarea></label><br>
+                <label>監護計画：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_e_plan"><? echo $item_e_plan; ?></textarea></label><br>
+                <label>今後の面会交流：<textarea readonly maxlength="300" class="textarea textarea-bordered textarea-xs w-full max-w-xs flex items-center gap-2" name="item_e_visitation"><? echo $item_e_visitation; ?></textarea></label><br>
                 </fieldset>
 
                 <!------- PDFへ内容を送信 ------->
