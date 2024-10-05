@@ -1,0 +1,110 @@
+/* カラーパレット */
+:root {
+  --fire-element: #FF6F61; /* 炎のエレメントの赤橙色 */
+  --water-element: #5DADE2; /* 水のエレメントの青色 */
+  --earth-element: #58D68D; /* 地のエレメントの緑色 */
+  --air-element: #F4D03F; /* 空気のエレメントの黄色 */
+  --background-color: #F8F9F9; /* 全体の背景色 */
+  --text-color: #2C3E50; /* テキストの色 */
+  --button-text-color: #FFFFFF; /* ボタンのテキスト色 */
+}
+
+/* グローバルスタイル
+.body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+
+/* ヘッダー */
+header {
+  background-color: var(--fire-element);
+  color: var(--button-text-color);
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#main_container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* ログインコンテナ */
+.login-container, .register-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* カード */
+.card {
+  background-color: var(--background-color);
+  border: 1px solid var(--text-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+}
+
+.card button {
+  background-color: var(--water-element);
+  color: var(--button-text-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: var(--earth-element);
+}
+
+/* リンク */
+.card a {
+  color: var(--air-element);
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* フッター */
+footer {
+  background-color: var(--fire-element);
+  color: var(--button-text-color);
+  text-align: center;
+  padding: 10px 20px;
+}
