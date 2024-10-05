@@ -31,8 +31,6 @@ if ($val['id'] != '') {
     $_SESSION["user_id"] = $val["id"];
     $_SESSION["user_name"] = $val["email"];
     $_SESSION["start_date"] = $val["start_date"];
-    
-    //$_SESSION['kanri'] = $val['kanri_flg'] ;
 
     header('Location: main.php');
 } else {

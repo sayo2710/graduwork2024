@@ -55,7 +55,7 @@ $lawyer2_date = date_modify($date, "+14 day")->format("Y-m-d"); //14日後
 ?>
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-theme="light">
 
 <head>
     <meta charset="UTF-8">

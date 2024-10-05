@@ -1,6 +1,6 @@
 <!-- ログインフォーム -->
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-theme="light">
 
 <head>
     <meta charset="UTF-8">

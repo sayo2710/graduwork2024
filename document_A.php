@@ -1,6 +1,6 @@
 <!-- ドキュメントを作成します -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja" data-theme="light">
 
 <head>
     <meta charset="UTF-8">

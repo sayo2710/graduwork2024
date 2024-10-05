@@ -1,6 +1,6 @@
 <!-- アカウントを登録します -->
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -28,8 +28,6 @@
                         <input type="email" id="email" name="email" required>
                         <label for="password">パスワード:</label>
                         <input type="password" id="password" name="password" required>
-                        <label for="confirm-password">パスワード確認:</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
                         <button type="submit">登録</button>
                     </form>
                     <p>すでにアカウントをお持ちですか？ <a href="index.php">ログイン</a></p>

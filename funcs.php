@@ -11,10 +11,10 @@ function h($str)
 function db_conn()
 {
     try {
-        $db_host = ''; //DBホスト
-        $db_name = ''; //データベース名
-        $db_id = ''; //アカウント名（登録しているドメイン）
-        $db_pw = ''; //さくらサーバーのパスワード
+        $db_host = 'mysql57.olivehippo18.sakura.ne.jp'; //DBホスト
+        $db_name = 'olivehippo18_db_kadai07'; //データベース名
+        $db_id = 'olivehippo18'; //アカウント名（登録しているドメイン）
+        $db_pw = '35saNIDsk__'; //さくらサーバーのパスワード
 
         $server_info = 'mysql:dbname=' . $db_name . ';charset=utf8;host=' . $db_host;
         
